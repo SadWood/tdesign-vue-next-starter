@@ -48,7 +48,7 @@
       </t-table>
     </t-card>
 
-    <t-dialog v-model:visible="visible" header="基本信息" @confirm="onConfirm">
+    <t-dialog v-model:visible="visible" placement="center" header="基本信息" @confirm="onConfirm">
       <template #body>
         <div class="dialog-info-block">
           <div class="dialog-info-block">
